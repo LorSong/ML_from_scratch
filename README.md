@@ -1,3 +1,6 @@
+Recommended - open this repository in colab
+https://colab.research.google.com/github/LorSong/ML_from_scratch/blob/master/
+
 # ML_from_scratch
 Implementation of some ML algorithms using python and numpy
 
