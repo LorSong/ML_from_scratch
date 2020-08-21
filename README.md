@@ -15,5 +15,5 @@ Second - Convolutional2D layer
 
 Implementration of spatial convolutional 2D layer
 Tested on image classification task (cifar10).
-First I made use of numpy and simple "for loops", then rewrited using tensor flow functions
+At first, I made use of numpy and simple "for loops", then rewrited using tensor flow functions
 (Design compatible with tf.keras models)
