@@ -17,7 +17,7 @@ Implementation of Mini-batch Gradient Descent for Softmax Regression.
 
 Second - Convolutional2D layer 
 Implementration of spatial convolutional 2D layer
-At first, I made use of numpy and simple "for loops". Using NumPy, I couldn't make it compatible with tf.keras models. That's why I rewrited it using tensorflow functions. Comparing to tf.keras.Cond2D, mine was a bit slower to learn.
+At first, I made use of numpy and simple "for loops". Using NumPy, I couldn't make it compatible with tf.keras models. That's why I rewrited it using tensorflow functions. Comparing to tf.keras.Conv2D, mine was a bit slower to learn.
 
 - Design compatible with tf.keras models
 - Results on image classification tasks were same as tf.keras.Conv2D (using simple CNN architecture)
