@@ -16,7 +16,8 @@ Implementation of Mini-batch Gradient Descent for Softmax Regression.
 - For this task I made additional custom transformer, to make word-vectors of given text.
 
 Second - Convolutional2D layer 
-Implementration of spatial convolutional 2D layer
+Implementration of spatial convolutional 2D layer.
+
 At first, I made use of numpy and simple "for loops". Using NumPy, I couldn't make it compatible with tf.keras models. That's why I rewrited it using tensorflow functions. Comparing to tf.keras.Conv2D, mine was a bit slower to learn.
 
 - Design compatible with tf.keras models
